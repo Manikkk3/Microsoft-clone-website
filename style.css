@@ -1,0 +1,474 @@
+/* font-family: 'Poppins', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
+*/
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-size: 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 18px;
+
+}
+
+.logo{
+    width: 120px;
+    height: 30px;
+}
+
+.container{
+    width: 90%;
+    min-width: 1100px;
+    margin: auto;
+}
+
+/*Navbar*/
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    height: 50px;
+    font-size: 16px;
+
+}
+
+.navbar .main-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+    justify-content: flex-start;
+    
+
+}
+
+.navbar li a:hover{
+    color: black;
+    border-bottom: 2px black solid;
+}
+
+
+
+
+
+
+.main-bar li{
+    padding: 0px 15px;
+}
+
+.navbar ul.main-bar{
+    flex:1;
+    margin-left: 20px;
+}
+
+.side-bar li{
+    padding: 0px 10px;
+}
+
+.navbar .side-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Shop-discount notice*/
+
+.shop-notice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(48, 103, 192);
+    color: white;
+    height: 50px;
+}
+
+.shop-notice a{
+    color: white;
+}
+
+.shop-notice p{
+    font-size: 19px;
+}
+
+.shop-notice a:hover{
+    text-decoration: underline;
+}
+
+/*Main-content*/
+/*
+.main-content{
+    width: 100%;
+    height: 400px;
+    background: url("microsoftbg.jpg") no-repeat center center/cover;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-end;
+
+}
+*/
+
+.main-content{
+    width: fit-content;
+    background-color: rgba(232, 234, 236, 0.962);
+
+}
+
+.main-content img{
+    width: 50%;
+}
+
+.main-content-pure{
+    flex-direction: column;
+    padding: 0 100px;
+    text-align: left;
+}
+
+.main-content-pure h1{
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    padding-bottom: 10px;
+    
+
+}
+
+.main-content-pure p{
+    padding: 8px 0;
+    width: 390px;
+    line-height: 1.5rem;
+
+}
+
+.main-content-link{
+    padding-top: 15px;
+}
+
+#main-content-link2:hover{
+    text-decoration: underline;
+    
+
+    
+}
+
+#main-content-link2{
+    margin-left: 20px;
+    color: rgb(48, 103, 192);
+    font-weight: 580;
+    
+    
+}
+
+/*Slider*/
+
+.slider{
+    height: 80px;
+
+    
+}
+
+.slider i{
+    padding-left: 20px;
+}
+
+/*Shop_cut*/
+
+.shop_cut{
+    justify-content: space-around;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+    
+}
+
+.shop_content{
+    flex-direction: column;
+    align-items: center;
+    padding-right: 10px;
+    margin-right: 50px;
+    padding-bottom: 10px;
+    
+
+}
+
+.shop_cut i{
+    padding-bottom: 10px;
+    
+}
+
+.shop_cut a{
+    color: rgb(48, 103, 192);
+    font-weight: bolder;
+    font-size: 1rem;
+}
+
+/*Showcase*/
+
+.showcase img{
+    width: 300px;
+    height: 180px;
+    padding-bottom: 10px;
+}
+
+.showcase{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+    margin-top: 20px;
+    
+    
+    
+}
+
+.showcase h1{
+    line-height: 1.8rem;
+    margin-top: 10px;
+
+}
+
+.showcase p{
+    line-height: 1.3rem;
+    max-width: 300px;
+}
+
+.showcase-link{
+    margin-top: 15px;
+}
+
+.showcase-link a{
+    padding: 8px 0;
+    padding-right: 10px;
+}
+
+.showcase-item .flex{
+    flex-direction: column;
+    align-items: baseline;
+    
+}
+
+/*maindown content*/
+
+.maindown-content{
+    
+    margin-top: 40px;
+    width: 90%;
+    
+
+}
+
+.maindown-content img{
+    margin-right: -89px;
+}
+
+/*showcasedown content*/
+
+#single{
+    margin: 20px auto;
+
+}
+
+/*Disaster-response content*/
+
+.disaster-response{
+    background-image: url("disasterresponse.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    position: relative;
+    line-height: 1.3rem;
+   
+    
+}
+
+.disaster-response div{
+    margin-top: 100px;
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    color: white;
+    line-height: 1.3rem;
+    width: 500px;
+}
+
+.disaster-response h1{
+    font-size: 35px;
+    margin: 15px 0;
+    line-height: 40px;
+    gap: 1.5rem;
+
+}
+
+.disaster-response p{
+    
+    margin: 25px 0;
+
+}
+
+/* down-slider*/
+
+.down-slider{
+    margin-top: -40px;
+
+}
+
+/* socialmedia content */
+
+.socialmedia{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+}
+
+/*footer*/
+
+.footer{
+    background-color: aliceblue;
+    margin-top: 30px;
+}
+.footer-content{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+}
+
+.flex-down{
+    display: grid;
+    
+}
+
+.footer-content .flex-down a{
+    font-size: 13px;
+    font-weight: 550;
+
+    
+}
+
+.footer-content .flex-down a:hover{
+    text-decoration: underline;
+    
+    
+    
+}
+
+.footer-side{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    font-weight: 450;
+}
+
+.footer-side .footerside1{
+    display: flex;
+    gap: 20px;
+}
+
+.footer-side .footerside1 a:hover{
+    text-decoration: underline;
+}
+
+/*Credit tag*/
+
+.credit{
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    line-height: 2rem;
+}
+
+
+/*Media query*/
+
+@media(max-width: 700px){
+    
+    .main-content{
+        flex-direction: column;
+        text-align: center;
+        width: 700px;
+    }
+
+    .main-content-pure{
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Utilities class*/
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btn{
+    font-size: 16px;
+    font-weight: bold;
+    background-color: rgb(48, 103, 192);
+    color: white;
+    padding: 7px 9px;
+    border-radius: 2px;
+    margin: 5px;
+}
+
+.btn:hover{
+    opacity: 1.1;
+    
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.poppins{
+    font-family: 'Poppins', sans-serif;
+}
+
+.a-link{
+    text-decoration: underline;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.p-10{
+    padding-left: 10px;
+}
+
+.btn-secondary{
+    color:  rgb(48, 103, 192);
+    font-weight: 700;
+}
+
+.btn-secondary:hover{
+    text-decoration: underline;
+}
